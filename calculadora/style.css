@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@700&family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.fundo {
+    background-image: linear-gradient(45deg, black, rgba(245, 141, 210, 0.849));
+    height: 100vh;
+    color: white;
+    font-family: 'Dongle', sans-serif;
+}
+
+.calculadora{
+    position: absolute;
+    background-color: burlywood;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 24px;
+    padding: 15px;
+}
+
+.botao {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: rgba(221, 113, 74, 0.61);
+    border: none;
+    color: cornsilk;
+    border-radius: 20px;
+    margin: 3px;
+}
+
+.botao:hover {
+    background-color: rgba(156, 72, 48, 0.61);
+}
+.botao-de-igual:hover {
+    background-color: rgba(156, 72, 48, 0.61);
+}
+.botao-de-zero:hover {
+    background-color: rgba(156, 72, 48, 0.61);
+}
+
+.titulo-no-fundo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 30pt;
+    font-family: 'Sarala', sans-serif;
+
+    }
+
+    .botao-de-igual {
+        height: 106px;
+        width: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: rgba(221, 113, 74, 0.61);
+    border: none;
+    color: cornsilk;
+    border-radius: 20px;
+    margin: 3px;
+    }
+
+    .botao-de-zero {
+        height: 50px;
+        width: 106px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: rgba(221, 113, 74, 0.61);
+    border: none;
+    color: cornsilk;
+    border-radius: 20px;
+    margin: 3px;
+    }
+
+    #resultado {
+        width: 207px;
+        background-color: rgb(255, 253, 254);
+        height: 35px;
+        margin: 10px;
+        border-radius: 10px;
+        font-size: 28px;
+        color: black;
+        text-align: right;
+        padding: 5px;
+        overflow-x: auto;
+        overflow-y: hidden;
+    }
+
+    /*barra de rolagem */
+    ::-webkit-scrollbar {
+        height: 4px;
+    }
+
+    /*trilha da barra de rolagem*/
+    ::-webkit-scrollbar-track {
+        background-color: rgb(19, 11, 11);
+    }
+
+    /*alça de rolagem que arrasta*/
+    ::-webkit-scrollbar-thumb {
+        background-color: rgb(252, 0, 59);
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background-color: rgb(243, 88, 88);
+    }
+    
