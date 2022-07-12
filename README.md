@@ -13,4 +13,4 @@ Calculadora feita com o objetivo de estudar CSS e Javascript.
 
 
 ## Demostração do Projeto!
-<img  src="https://user-images.githubusercontent.com/98564118/156267926-d8abdc6a-a2ea-4bcc-aec5-8720be28167e.gif">
+<img width="450px" height="300px"  src="https://user-images.githubusercontent.com/98564118/156267926-d8abdc6a-a2ea-4bcc-aec5-8720be28167e.gif">
